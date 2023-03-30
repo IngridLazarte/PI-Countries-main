@@ -1,0 +1,85 @@
+.Home {
+    /* background: rgb(35, 35, 77); */
+    background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
+    /* position:fixed;
+    height: 2000px; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.filtro1 {
+
+    position: fixed;
+    top: 150px;
+    left: 200px;
+
+}
+
+.filtro11 {
+
+    font-size: 25px;
+    border-radius: 4px;
+    padding: 6px;
+    background: transparent;
+    color: white;
+    font-style:italic;
+    font-weight: bold;
+}
+
+
+.filtro2 {
+
+    position: fixed;
+    top: 150px;
+    left: 600px;
+}
+
+.filtro22 {
+    font-size: 25px;
+    border-radius: 4px;
+    padding: 6px;
+    background: transparent;
+    color: white;
+    font-style:italic;
+    font-weight: bold;
+}
+
+.orden1 {
+
+    position: fixed;
+    top: 150px;
+    left: 1400px;
+}
+
+.orden2 {
+
+    position: fixed;
+    top: 150px;
+    left: 1000px;
+}
+
+.orden11 {
+    font-size: 25px;
+    border-radius: 4px;
+    padding: 6px;
+    background: transparent;
+    color: white;
+    font-style:italic;
+    font-weight: bold;
+}
+
+.orden22 {
+    font-size: 25px;
+    border-radius: 4px;
+    padding: 6px;
+    background: transparent;
+    color: white;
+    font-style:italic;
+    font-weight: bold;
+}

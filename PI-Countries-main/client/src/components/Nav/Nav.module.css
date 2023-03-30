@@ -1,0 +1,51 @@
+.Nav {
+    background: black;
+    padding-top: 80px;
+
+}
+
+.inicio{
+    font-size: 21px;
+    border-radius: 8px;
+    background: blue;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background: transparent;
+    padding: 8px;
+    position: fixed;
+    top: 18px;
+    left: 200px;
+    border: 4px solid rgb(165, 17, 17);
+}
+
+.input {
+    position: fixed;
+    top: 18px;
+    right: 200px;
+    font-size: 25px;
+}
+
+
+.button {
+    font-size: 21px;
+    border-radius: 8px;
+    background: blue;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background: transparent;
+    padding: 8px;
+    position: fixed;
+    top: 18px;
+    left: 400px;
+    border: 4px solid rgb(165, 17, 17);
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    margin-top: 16px;
+    object-fit: cover;
+    border-radius: 8px;
+}

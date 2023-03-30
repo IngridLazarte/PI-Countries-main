@@ -1,0 +1,60 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    border: 2px solid black;
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 500px; 
+    height: 450px; 
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px black;
+    /* background-color: rgb(115, 115, 115);  */
+    background-color: rgb(54, 54, 54);
+
+}
+
+
+
+.closeButton {
+
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.closeButton:hover {
+    background-color: red;
+    color: white;
+}
+
+.name {
+    margin-top: 16px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.continente {
+    color: white;
+    font-size: 25px;
+}
+
+
+.image {
+    width: 100%;
+    height: 250px;
+    margin-top: 16px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 4px solid black
+    
+} 

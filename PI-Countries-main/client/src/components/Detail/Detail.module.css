@@ -1,0 +1,92 @@
+.caja {
+    /* background-image: url(https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+}
+ */
+background: violet;
+}
+
+
+.Detail {
+
+    position: fixed;
+    top:200px;
+    left: 1150px;
+    border: 2px solid black;
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 700px; 
+    height: 900px; 
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px black;
+    background: rgb(173, 173, 173);
+}
+
+.id {
+    font-size: 20px;
+    color: black;
+}
+
+.name {
+   
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+
+.continente {
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.image {
+    width: 90%;
+    height: 250px;
+    margin-top: 18px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid black;
+} 
+
+.capital {
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.subregion {
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.area {
+    color:black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.poblacion {
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.closeButton {
+
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.closeButton:hover {
+    background-color: red;
+    color: white;
+}

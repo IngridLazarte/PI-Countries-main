@@ -1,0 +1,69 @@
+.Paginado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 50px;
+  left: 700px;
+  font-size: 20px;
+}
+
+.Numbers {
+  padding: 8px 16px;
+  margin: 0 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background: black;
+}
+
+.Numbers:hover {
+  background-color: rgb(255, 255, 255);
+  color: black
+}
+
+.active {
+  background-color: #288f2d;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.anterior {
+  padding: 8px 16px;
+  margin: 0 4px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background: black;
+  font-size: 20px;
+}
+
+.anterior:hover {
+  background: white;
+  color: black;
+}
+
+.siguiente {
+  padding: 8px 16px;
+  margin: 0 4px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background: black;
+  font-size: 20px;
+}
+
+.siguiente:hover {
+  background: white;
+  color: black;
+}

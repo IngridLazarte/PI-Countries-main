@@ -1,0 +1,210 @@
+.fondo {
+    /* background: rgb(149, 149, 221); */
+    background-image: url(https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+    /* height: 1410px; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.volver {
+    font-size: 25px;
+    position: fixed;
+    left: 250px;
+    top: 100px;
+    border-radius: 10px;
+    background: gray;
+    color: aliceblue;
+}
+
+.titulo {
+    position: fixed;
+    top: 210px;
+    left: 250px;
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.form {
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    background:rgb(138, 116, 80);
+    height: 1200px;
+    width: 1100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.conjunto0 {
+    position: fixed;
+    left: 250px;
+    top: 350px
+}
+
+.nombre {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inputNombre {
+    font-size: 30px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.error0{
+    font-size: 25px;
+    color: red;
+    font-weight: bolder;
+    position: fixed;
+    left: 650px;
+}
+
+.conjunto1 {
+    position: fixed;
+    left: 250px;
+    top: 500px
+}
+
+.dificultad {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inputDific {
+    font-size: 30px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.error1{
+    font-size: 25px;
+    color: red;
+    font-weight: bolder;
+    position: fixed;
+    left: 300px;
+}
+
+.conjunto2 {
+    position: fixed;
+    left: 250px;
+    top: 650px
+}
+
+.duracion {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inputDurac {
+    font-size: 30px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.dias {
+    font-size: 30px;
+}
+
+.error2{
+    font-size: 25px;
+    color: red;
+    font-weight: bolder;
+    position: fixed;
+    left: 400px;
+}
+
+.conjunto3 {
+    position: fixed;
+    left: 250px;
+    top: 800px
+}
+
+.temporada {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inputTemp {
+    font-size: 30px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.error3{
+    font-size: 25px;
+    color: red;
+    font-weight: bolder;
+    position: fixed;
+    left: 420px;
+}
+
+.conjunto4 {
+    position: fixed;
+    left: 250px;
+    top: 950px
+}
+
+.paises {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inputPaises {
+    font-size: 30px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.buttonCrear {
+    font-size: 28px;
+    position: fixed;
+    top: 1350px;
+    left: 620px;
+    background: rgb(43, 75, 39);
+    color: rgb(255, 255, 255);
+    border-radius: 8pxs;
+}
+
+.eleccion{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-top: 10px;
+   font-size: 20px;
+   font-weight: bold;
+    color: white;
+}
+
+.buttonElec{
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    width: 32px;
+    height: 32px;
+}
+
+.buttonElec:hover{
+background: red;
+color: white
+}
+
+.activities{
+    position: fixed;
+    top: 700px;
+    right: 620px;
+}
